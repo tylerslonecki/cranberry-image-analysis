@@ -1,5 +1,6 @@
 
-To launch a pre-configured jupyter notebook, click on the binder button below!
+To launch a pre-configured jupyter notebook version of this pipeline, click on "Launch Binder"
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tylerslonecki/binder-test/main?labpath=Internal_Scans.ipynb)
 
 
