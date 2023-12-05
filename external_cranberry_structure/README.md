@@ -1,3 +1,5 @@
+
+To launch a pre-configured jupyter notebook, click on the binder button below!
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/tylerslonecki/binder-test/main?labpath=Internal_Scans.ipynb)
 
 
