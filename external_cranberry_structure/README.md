@@ -18,18 +18,13 @@ Install Docker according to your operating system's instructions. You can find d
 Enter the following command to pull the latest Docker image:
 
 ```bash
-docker pull tjs334/micromamba-base-jupyter:latest
-```
-OR
-
-```bash
 docker pull tjs334/micromamba-base-terminal:latest
 ```
 This command will pull down the latest working docker image compatible with this pipeline.
 
 ## Step 3: Navigate to the Working Folder
 
-Navigate to the desired working folder, which should contain the Jupyter notebook and image files to be processed. Note that Docker commands may not work in shared folders like BOX, so it's recommended to copy files locally.
+Navigate to the desired working folder, which should contain the python file (.py extension) and image files to be processed. Note that Docker commands may not work in shared folders like BOX, so it's recommended to copy files locally.
 
 ### Two Approaches:
 
@@ -49,17 +44,9 @@ OR
 docker run -it -v .:/home/mambauser/ micromamba-base-terminal:latest
 ```
 
-## Step 5: Access Jupyter Notebook
 
-Copy the second URL provided in the terminal after running the Docker command and paste it into a browser search bar.
-
-## Step 6: Use Jupyter Notebook
-
-With the correct environment setup, you can use your Jupyter notebook as usual. You should have access to the files in your selected working directory within the Jupyter environment.
-
-![Alt Text](https://github.com/tylerslonecki/bi-image-analysis/blob/main/bi/assets/jupyter_example.PNG)
-
-When you are done, you can stop and remove all docker containers using these commands in your terminal. Otherwise, they will continue to run in the background (The images will remain pulled down from Dockerhub)
+## Step 5: Stop and remove docker container
+When you are done, you can stop and remove all docker containers using these commands in your terminal. Otherwise, they will continue to run in the background and use your memory (The images will remain pulled down from Dockerhub)
 
 NOTE: You may need to press CTRL+C (Windows/Linux) or CMD+C (MAC OS) twice to terminate the process in the terminal before being able to enter these commands.
 ```bash
@@ -67,4 +54,4 @@ docker stop $(docker ps -q)
 docker rm $(docker ps -a -q)
 ```
 
-## Repeat Steps 3-6 to use the docker container again in the future
+## Repeat Steps 3-5 to use the docker container again in the future
