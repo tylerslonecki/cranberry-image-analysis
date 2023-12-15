@@ -27,7 +27,7 @@ This command will pull down the latest working docker image compatible with this
 
 ## Step 3: Navigate to the Working Folder
 
-Navigate to the desired working folder, which should contain the python file (.py extension) and image files to be processed. Note that Docker commands may not work in shared folders like BOX, so it's recommended to copy files locally.
+Navigate to the desired working folder, which should contain the python file (.py extension) and image folder to be processed. Note that Docker commands may not work in shared folders like BOX, so it's recommended to copy files locally.
 
 ### Two Approaches:
 
