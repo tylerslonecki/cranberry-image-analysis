@@ -40,7 +40,7 @@ Navigate to the desired working folder, which should contain the python file (.p
 Once in the correct working folder, enter the following command in your terminal or PowerShell:
 
 ```bash
-docker run -it -v .:/home/mambauser/ micromamba-base-terminal-cranberry:latest
+docker run -it -v .:/home/mambauser/ cranberry-external:latest
 ```
 
 
