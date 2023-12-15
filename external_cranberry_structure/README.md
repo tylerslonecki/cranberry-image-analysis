@@ -21,7 +21,7 @@ Install Docker according to your operating system's instructions. You can find d
 Enter the following command to pull the latest Docker image:
 
 ```bash
-docker pull tjs334/micromamba-base-terminal:latest
+docker pull tjs334/cranberry-external:latest
 ```
 This command will pull down the latest working docker image compatible with this pipeline.
 
@@ -32,7 +32,8 @@ Navigate to the desired working folder, which should contain the python file (.p
 ### Two Approaches:
 
 1. Use the terminal `cd` command to navigate to the desired working folder.
-2. For Windows 10+, use the file explorer to navigate to the working folder, hold shift, right-click, and select "Open PowerShell window here." For MacOS, use Finder to navigate to the working folder, right-click, and select "Open terminal" from the context menu (You may need to hover over "Services" first).
+2.   - For Windows 10+, use the file explorer to navigate to the working folder, click "File", and select "Open Windows PowerShell" (May require "Open as     Administrator"
+     - For MacOS, use Finder to navigate to the working folder, right-click, and select "Open terminal" from the context menu (You may need to hover over "Services" first).
 
 ## Step 4: Run Docker Container
 
