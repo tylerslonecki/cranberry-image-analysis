@@ -47,7 +47,7 @@ docker run -it -v .:/home/mambauser/ cranberry-external:latest
 ## Step 5: Stop and remove docker container
 When you are done, you can stop and remove all docker containers using these commands in your terminal. Otherwise, they will continue to run in the background and use your memory (The images will remain pulled down from Dockerhub)
 
-NOTE: You may need to press CTRL+C (Windows/Linux) or CMD+C (MAC OS) twice to terminate the process in the terminal before being able to enter these commands.
+NOTE: You may need type "exit" into your terminal to leave the container session first.
 ```bash
 docker stop $(docker ps -q)
 docker rm $(docker ps -a -q)
