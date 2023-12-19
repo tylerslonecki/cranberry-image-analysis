@@ -1,1 +1,2 @@
+mesa-utils
 tesseract-ocr libtesseract-dev
