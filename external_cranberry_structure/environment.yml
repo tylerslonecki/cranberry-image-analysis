@@ -3,7 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8.17
-  - jupyter=1.0.0
   - plantcv=4.0.1
   - opencv=4.8.0
   - pytesseract=0.3.10
